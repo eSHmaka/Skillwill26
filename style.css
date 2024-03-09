@@ -2,164 +2,128 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
-.container{
-  max-width: 1440px;
+
+header {  
+  background-color: blue;
+  position: fixed;
   width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 132px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar {
+  display: flex;
+  padding: 22px 0;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.logoo {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+
+img {
+ width: 48px;
+ height: 30px;
+ margin-right: 7.62px;
+}
+
+h3 {
+  font-family: "Inter" sans-serif;
+  font-size: 23px;
+  font-weight: 700px;
+  line-height: 28px;
+  color: white;
+  border-left: 2px solid white;
+  padding-left: 7.62px;
+  text-decoration: none;
+}
+
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 35px
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+}
+
+.button {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  width:100px;
+  height: 48px;
+  padding: 8px, 20px, 8px, 20px;
+  border-radius: 5px;
+  gap: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+
+}
+
+.button2{
+  background-color: rgba(47, 55, 61, 1);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  width:110px;
+  height: 48px;
+  padding: 8px, 20px, 8px, 20px;
+  border-radius: 5px;
+  gap: 10px;
+  color: white;
+  border: 1px;
+}
+
+.buttons{
+  display: flex;
+}
+
+.left-side{
+  display: flex;
+  gap: 60px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+=======
 
 
 .first-section{
   background-color: blue;
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 132px;
 }
 
 .box1{
